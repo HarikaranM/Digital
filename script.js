@@ -5,5 +5,9 @@ $(document).ready(function(){
         $('nav').toggleClass('nav-toggle');
 
     });
-
+    $('.i33').click(function(){
+        $(this).next('.i44').slideToggle();
+        $(this).next('.fa-caret').toggleClass('rotate');
+        
+    });
 });

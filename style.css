@@ -74,6 +74,7 @@ header .navlist ul li span{
 .client{
     min-height: 100vh;
     padding: 30px 5%;
+    padding-bottom: 30%;
     background-color: #793CFB;
     color: #ffffff;
 }
@@ -138,6 +139,174 @@ header .navlist ul li span{
 .client .icon .icon3 p{
     padding-inline-end: 5px;
 }
+.wave1 svg{
+    margin-top: -22%;
+    position: absolute;
+}
+.Lead{
+    display: flex;
+    background-color: #F1EEFF;
+    
+}
+.Lead {
+    padding-inline: 5%;
+    padding-bottom: 15%;
+}
+.Lead .tech img{
+    display: block;
+}
+.Lead .lead1 {
+    padding-block: 15%;
+    padding-bottom: 20%;
+}
+.Lead .lead2{
+    display: flex;
+    align-items: center;
+    margin-block: 20px;
+    padding-block: 20px;
+}
+.Lead .lead2{
+    border: 1px solid #fff;
+    background-color: #fff;
+    border-radius: 18px;
+   
+}
+.Lead .lead2 img {
+    width: 20%;
+    height: 25vh;
+}
+.Lead .lead2 h2{
+    padding-block: 10px;
+}
+.Lead .lead2 p{
+    line-height: 25px;
+}.wave2 svg{
+    margin-top: -22%;
+    position: absolute;
+}
+.Lead .lead2 .lead3{
+    padding-inline: 20px;
+}
+.Lead .lead2 .lead4{
+    padding-inline: 25px;
+}
+.team{
+    background-color: #793CFB;
+    color: #ffffff;
+    padding-inline: 6%;
+    padding-block: 15%;
+}
+.team .team1 img{
+    width: 85%;
+    border-radius: 50%;
+}
+.team .team2 img{
+    width: 85%;
+    border-radius: 50%;
+}
+.team .team3 img{
+    width: 85%;
+    border-radius: 50%;
+}
+.team .meet h1{
+    margin-block: 15px;
+}
+.team .meet p{
+    padding-block: 10px;
+    line-height: 25px;
+}
+.say{
+    background-color: #F1EEFF;
+    padding-inline: 6%;
+    padding-block: 25%;
+}
+.say .say1 h1{
+    text-align: center;
+    padding-block: 40px;
+}
+.say .say3{
+    display: flex;
+}
+.say .Stars{
+    border: 1px solid #fff;
+    background-color: #fff;
+    
+    margin-inline: 3%;
+    
+    padding-block-end: 10%;
+    padding-inline: 8%;
+}
+.say .jen{
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    margin-inline: 3%;
+    margin-bottom: 10%;
+    margin-top: 1px;
+    padding-inline: 7%;
+    padding-block: 10px;
+}
+.say .jen .jen1{
+    padding-left: 10px;
+}
+.say .jen img{
+    width: 100%;
+    height: 16vh;
+    border-radius: 50%;
+}
+.say .Stars .start1{
+    color: #F4BB4F;
+    padding-block: 20px;
+}
+.say .Stars p{
+    line-height: 30px;
+}
+.wave3 svg{
+    margin-top: -22%;
+    position: absolute;
+}
+.quick{
+    display: flex;
+    
+}
+
+.quick .quick2{
+    display: flex;
+    align-items: center;
+    margin-left: -14px;
+}
+.quick .quick2 p{
+    padding-inline: 40px;
+}
+.quick .nav1 .fa-solid{
+    color: #793CFB;
+}
+.i33 .sub-btn{
+    display: none;
+}
+.i44 span {
+    padding-right: 10px;
+}
+
+footer .circle{
+    text-align: center;
+
+}
+footer .circle1{
+    margin-block: 10%;
+    display: flex;
+    color: #793CFB;
+    font-size: 26px;
+    justify-content: center;
+}
+footer .circle1 i{
+    padding-inline: 10px;
+}
+
+
+
+
+
 
 
 
@@ -160,7 +329,7 @@ header .navlist ul li span{
         margin-bottom: 12px;
     }
     header .nav-toggle{
-        top: 13%;
+        top: 20%;
         margin-left: 7%;
         
        }
@@ -279,8 +448,94 @@ header .navlist ul li span{
     .client .icon .goo{
         padding: 16px 0px;
     }
+    .Lead{
+        padding-inline:5%;
+    }
+    .Lead .tech img{
+        display: none;
+    }
+    .Lead .lead1{
+        padding-block: 15%;
+    }
+    .Lead .lead1 h1{
+        margin-bottom: 25px;
+    }
+    .Lead .lead2{
+        border: 1px solid #fff;
+        background-color: #fff;
+        border-radius: 18px;
+       
+    }
+    .team .team1{
+        text-align: center;
+        margin-block: 10%;
+        line-height: 35px;
+    }
+    .team .team2{
+        text-align: center;
+        margin-block: 10%;
+        line-height: 35px;
+    }
+    .team .team3{
+        text-align: center;
+        margin-block: 10%;
+        line-height: 35px;
+    }
+    .say .say3{
+        flex-direction: column;
+    }
+    .quick .quick1{
+        padding-bottom: 10%;
+    }
+    .quick {
+        flex-direction: column;
+       margin-inline: 6%;
+       padding-block: 10%;
+    }
+    .i33 .sub-btn{
+        display: block;
+    }
+    .i44 {
+        background-color: #ffffff;
+        border-radius: 4px ;
+        width: 100%;
+        padding: 20px;
+        line-height: 40px;
+        display: none;
+        position: absolute;
+        z-index: 0;
+        opacity: 0;
+        visibility: hidden;
+    }
+    .nav1:hover .i44{
+        display: block;
+        opacity: 1;
+        visibility: visible;
+        transition: 0s;
+        z-index: 1000;
+    }
+    .nav1 .i33{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        cursor: pointer;
+    }
+    .nav1 {
+        padding-block: 5%;
+        width: 100%;
+        position: relative;
+    }
+    footer{
+        margin-inline: 6%;
+        padding-block: 6%;
+    }
 }
-
+@media (min-width:748px){
+    .Lead .lead2 .lead4{
+        padding-inline: 40px;
+    }
+}
 
 @media (min-width:900px){
     .client .icon{
