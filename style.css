@@ -84,14 +84,14 @@ header .navlist ul li span{
 }
 .client .icon{
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+    grid-template-columns: repeat(auto-fit,minmax(240px,1fr));
     grid-gap: 32px;
     margin-top: 10%;
 }
 .client .icon .goo{
     background-color: #864FFB;
     width: 100%;
-    padding: 16px 0px;
+    padding: 33px 0px;
     text-align: center;
     border-radius: 40px;
 
@@ -276,10 +276,39 @@ header .navlist ul li span{
         grid-template-columns: repeat(auto-fit,minmax(115px,1fr));
         
     }
+    .client .icon .goo{
+        padding: 16px 0px;
+    }
 }
 
 
-
+@media (min-width:900px){
+    .client .icon{
+      
+        grid-template-columns: repeat(auto-fit,minmax(160px,1fr));
+        
+    }
+}
+@media (min-width:1440px){
+    .client .icon{
+      
+        grid-template-columns: repeat(auto-fit,minmax(240px,1fr));
+        
+    }
+    .client .icon .icon2 img{
+        width: 33%;
+        padding-top: 11px;
+    }
+    .client .icon .icon2 p{
+        padding-inline-end: 5px;
+    }
+    .client .icon .icon3 img{
+        width: 17%;
+    }
+    .client .icon .icon3 p{
+        padding-inline-end: 5px;
+    }
+}
 
 
 
