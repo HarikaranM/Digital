@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=AR+One+Sans:wght@500&family=Antonio:wght@600&family=Catamaran&family=Convergence&family=Heebo:wght@700;900&family=Inter:wght@100..900&family=Noto+Sans+KR&family=Open+Sans:wght@800&family=Outfit:wght@400;700&family=PT+Sans:wght@700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    list-style: none; 
+}
+body{
+    background-color: #ffffff;
+    width: 100%;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3%;
+    margin-inline: 10%;
+}
+header .peak{
+    display: flex;
+    align-items: center;
+}
+header .navlist ul{
+    display: flex;
+    
+}
+header .navlist ul li{
+    font-size: 16px;
+}
+header .navlist ul li span{
+    background-color: #793cfb;
+    padding: 8px 12px;
+    border-radius: 25px;
+}
+.digital{
+    display: flex;
+    
+}
+.digital h3{
+    background-color: #F2ECFF;
+    color: #793cfb;
+    border-radius: 10px;
+}
+.wave svg{
+    margin-bottom: -5px;
+}
+
+.market{
+   min-height: 100vh;
+   padding: 30px 6%;
+   background-color: #F1EEFF;
+}
+.market .dgl h2{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 10%;
+}
+
+
+.market .ads{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+    grid-gap: 32px;
+    
+}
+.market .ads .item1{
+     border: 1px solid #fff;
+    background-color: #fff;
+    border-radius: 18px;
+    padding: 40px;
+}
+.client{
+    min-height: 100vh;
+    padding: 30px 5%;
+    background-color: #793CFB;
+    color: #ffffff;
+}
+.client .some{
+    text-align: center;
+    color: #ffffff;
+    margin-block: 20px;
+}
+.client .icon{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+    grid-gap: 32px;
+    margin-top: 10%;
+}
+.client .icon .goo{
+    background-color: #864FFB;
+    width: 100%;
+    padding: 16px 0px;
+    text-align: center;
+    border-radius: 40px;
+
+}
+.client .icon .icon1{
+    display: flex;
+    background-color: #864FFB;
+    width: 100%;
+    padding: 12px 0px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+}
+.client .icon .icon1 p{
+    padding-inline-end: 5px;
+}
+.client .icon .icon1 img{
+    width: 19%;
+}
+.client .icon .icon2 img{
+    width: 55%;
+}
+.client .icon .icon2 p{
+    padding-inline-end: 5px;
+}
+.client .icon .icon2 {
+    background-color: #864FFB;
+    padding: 12px 0px;
+    text-align: center;
+    border-radius: 40px;
+}
+.client .icon .icon3 {
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+    padding: 12px 0px;
+    color: #206CFF;
+   align-items: center;
+    border-radius: 40px;
+}
+.client .icon .icon3 img{
+    width: 17%;
+}
+.client .icon .icon3 p{
+    padding-inline-end: 5px;
+}
+
+
+
+
+@media (min-width:280px) and (max-width:900px){
+
+    header {
+        margin-inline-start: 3%;
+        margin-inline-end: 7%;
+    }
+    header .navlist{
+        position: fixed;
+        margin-left: -110%;
+        width: 80%;
+        background-color: #D9CAEF;
+        text-align: center;
+    }
+    header .navlist ul{
+        flex-direction: column;
+        margin-bottom: 12px;
+    }
+    header .nav-toggle{
+        top: 13%;
+        margin-left: 7%;
+        
+       }
+    header .navlist ul li{
+        padding-block: 10px;
+    }
+    header .fa-bars{
+        display: block;
+    }
+    .digital{
+        margin-inline-start: 6%;
+        margin-inline-end: 6%;
+        margin-top: 4%;
+    }
+    .digital img{
+        display: none;
+    }
+    .digital h3 {
+        background-color: #F2ECFF;
+        color: #793cfb;
+        padding: 10px 10px;
+        border-radius: 45px;
+        margin-bottom: 12px;
+        text-align: center;
+    }
+    .digital h1{
+        font-size: 48px;
+        line-height: 60px;
+        margin-block: 25px;
+    }
+    .digital p{
+        margin-block: 20px;
+        color: #6A727D;
+    }
+    .digital .btn{
+        display: flex;
+        
+    }
+    .digital .btn .us{
+        padding: 8px 0px;
+        width: 40%;
+        border-radius: 20px;
+        background-color: #793cfb;
+        border: 1px solid #793cfb;
+    }
+    .digital .btn .vi{
+        padding: 8px 0px;
+        width: 40%;
+        border-radius: 20px;
+        background-color: #3AB094;
+        border: 1px solid #3AB094;
+        margin-inline-start: 20px;
+    }
+    /* .market .ads{
+        flex-direction: column;
+    } */
+    /* .market .ads .item1{
+        border: 1px solid #fff;
+        background-color: #fff;
+        border-radius: 18px;
+    } */
+    .market .ads .item1 h3{
+        padding-block: 12px;
+        font-size: 20px;
+    }
+    .market .ads .item1 p{
+        color: #6A727D;
+        font-size: 16px;
+        margin-bottom: 16px;
+    }
+    .market .ads .item1 .learn1{
+        width: 50%;
+        padding: 8px 0px;
+        border-radius: 20px;
+        border: 1px solid #206CFF;
+        background-color: #206CFF;
+
+    }
+    .market .ads .item1 .learn2{
+        width: 50%;
+        padding: 8px 0px;
+        border-radius: 20px;
+        border: 1px solid #39B094;
+        background-color: #39B094;
+    }
+    .market .ads .item1 .learn3{
+        width: 50%;
+        padding: 8px 0px;
+        border-radius: 20px;
+        border: 1px solid #FE7831;
+        background-color: #FE7831;
+    }
+    .market .ads .item1 .learn4{
+        width: 50%;
+        padding: 8px 0px;
+        border-radius: 20px;
+        border: 1px solid #F06C7A;
+        background-color: #F06C7A;
+    }
+    .market .ads .item1 .learn5{
+        width: 50%;
+        padding: 8px 0px;
+        border-radius: 20px;
+        border: 1px solid #793CFB;
+        background-color: #793CFB;
+    }
+    .market .ads{
+        grid-gap: 32px;
+        grid-template-columns: repeat(auto-fit,minmax(270px,1fr));
+    }
+    .client .icon{
+      
+        grid-template-columns: repeat(auto-fit,minmax(115px,1fr));
+        
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:740px)  and (max-width:1024px){
+
+}
