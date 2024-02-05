@@ -227,14 +227,62 @@ header .navlist ul li span{
 .say .say3{
     display: flex;
 }
-.say .Stars{
-    border: 1px solid #fff;
+.say .Stars1{
+    border-top: 5px solid #1465FF;
     background-color: #fff;
-    
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
     margin-inline: 3%;
     
     padding-block-end: 10%;
     padding-inline: 8%;
+}
+.say .Stars1 .color{
+    background-color: #ffffff;
+    margin-block-start: -22px;
+    position: absolute;
+    margin-inline-start: 60%;
+    border-radius: 50%;
+    padding: 5px;
+    box-shadow: 2px 9px 9px 3px #EDEFF2;
+}
+.say .Stars2{
+    border-top: 5px solid #39B094;
+    background-color: #fff;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    margin-inline: 3%;
+    
+    padding-block-end: 10%;
+    padding-inline: 8%;
+}
+.say .Stars2 .color{
+    background-color: #ffffff;
+    margin-block-start: -22px;
+    position: absolute;
+    margin-inline-start: 60%;
+    border-radius: 50%;
+    padding: 5px;
+    box-shadow: 2px 9px 9px 3px #EDEFF2;
+}
+.say .Stars3{
+    border-top: 5px solid #F06C7A;
+    background-color: #fff;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    margin-inline: 3%;
+    
+    padding-block-end: 10%;
+    padding-inline: 8%;
+}
+.say .Stars3 .color{
+    background-color: #ffffff;
+    margin-block-start: -22px;
+    position: absolute;
+    margin-inline-start: 60%;
+    border-radius: 50%;
+    padding: 5px;
+    box-shadow: 2px 9px 9px 3px #EDEFF2;
 }
 .say .jen{
     display: flex;
@@ -245,6 +293,8 @@ header .navlist ul li span{
     margin-top: 1px;
     padding-inline: 7%;
     padding-block: 10px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
 }
 .say .jen .jen1{
     padding-left: 10px;
@@ -252,14 +302,34 @@ header .navlist ul li span{
 .say .jen img{
     width: 100%;
     height: 16vh;
-    border-radius: 50%;
+    border-radius: 50% ;
 }
-.say .Stars .start1{
+.say .Stars1 .start1{
     color: #F4BB4F;
     padding-block: 20px;
+    text-align: center;
 }
-.say .Stars p{
+.say .Stars1 p{
     line-height: 30px;
+    text-align: center;
+}
+.say .Stars2 .start1{
+    color: #F4BB4F;
+    padding-block: 20px;
+    text-align: center;
+}
+.say .Stars2 p{
+    line-height: 30px;
+    text-align: center;
+}
+.say .Stars3 .start1{
+    color: #F4BB4F;
+    padding-block: 20px;
+    text-align: center;
+}
+.say .Stars3 p{
+    line-height: 30px;
+    text-align: center;
 }
 .wave3 svg{
     margin-top: -22%;
@@ -275,8 +345,9 @@ header .navlist ul li span{
     align-items: center;
     margin-left: -14px;
 }
-.quick .quick2 p{
-    padding-inline: 40px;
+.quick1  p{
+   
+    line-height: 25px;
 }
 .quick .nav1 .fa-solid{
     color: #793CFB;
@@ -363,6 +434,7 @@ footer .circle1 i{
     .digital p{
         margin-block: 20px;
         color: #6A727D;
+        line-height: 25px;
     }
     .digital .btn{
         display: flex;
@@ -391,6 +463,9 @@ footer .circle1 i{
         background-color: #fff;
         border-radius: 18px;
     } */
+    .market .ads .item1{
+        text-align: center;
+    }
     .market .ads .item1 h3{
         padding-block: 12px;
         font-size: 20px;
@@ -399,6 +474,7 @@ footer .circle1 i{
         color: #6A727D;
         font-size: 16px;
         margin-bottom: 16px;
+        line-height: 25px;
     }
     .market .ads .item1 .learn1{
         width: 50%;
@@ -464,7 +540,14 @@ footer .circle1 i{
         border: 1px solid #fff;
         background-color: #fff;
         border-radius: 18px;
+        flex-direction: column;
        
+    }
+    .Lead .lead2 .lead3{
+        text-align: center;
+    }
+    .Lead .lead2 .lead4{
+        text-align: center;
     }
     .team .team1{
         text-align: center;
