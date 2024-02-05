@@ -391,7 +391,7 @@ footer .circle1 i{
     header .navlist{
         position: fixed;
         margin-left: -110%;
-        width: 80%;
+        width: 87%;
         background-color: #D9CAEF;
         text-align: center;
     }
@@ -400,8 +400,8 @@ footer .circle1 i{
         margin-bottom: 12px;
     }
     header .nav-toggle{
-        top: 20%;
-        margin-left: 7%;
+        top: 13%;
+        margin-left: 3%;
         
        }
     header .navlist ul li{
