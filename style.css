@@ -46,7 +46,7 @@ header .fa-bars{
     
 }
 .digital .digital1{
-    padding-block: 5%;
+    padding-block: 3%;
 }
 .digital h3{
     background-color: #F2ECFF;
@@ -55,7 +55,7 @@ header .fa-bars{
     width: max-content;
     padding-inline: 20px;
     padding-block: 3px;
-    margin-block: 10%;
+    margin-block: 5%;
 }
 .digital .digital1 h1{
     font-size: 40px;
