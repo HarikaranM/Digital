@@ -16,7 +16,7 @@ header{
     justify-content: space-between;
     align-items: center;
     margin-top: 3%;
-    margin-inline: 10%;
+    margin-inline: 6%;
 }
 header .peak{
     display: flex;
@@ -24,24 +24,66 @@ header .peak{
 }
 header .navlist ul{
     display: flex;
+   
     
 }
 header .navlist ul li{
     font-size: 16px;
+    padding-right: 22px;
 }
 header .navlist ul li span{
     background-color: #793cfb;
     padding: 8px 12px;
     border-radius: 25px;
 }
+header .fa-bars{
+    display: none;
+}
 .digital{
     display: flex;
+    margin-inline: 7%;
+    margin-block: 5%;
     
+}
+.digital .digital1{
+    padding-block: 5%;
 }
 .digital h3{
     background-color: #F2ECFF;
     color: #793cfb;
     border-radius: 10px;
+    width: max-content;
+    padding-inline: 20px;
+    padding-block: 3px;
+    margin-block: 10%;
+}
+.digital .digital1 h1{
+    font-size: 40px;
+    padding-bottom: 30px;
+    line-height: 50px;
+}
+.digital .digital1 p {
+    margin-block: 20px;
+    color: #6A727D;
+    line-height: 25px;
+}
+.digital .btn {
+    display: flex;
+}
+.digital .btn .us {
+    padding: 8px 0px;
+    width: 40%;
+    border-radius: 20px;
+    background-color: #793cfb;
+    border: 1px solid #793cfb;
+}
+.digital .btn .vi {
+    padding: 8px 0px;
+    width: 40%;
+    border-radius: 20px;
+    background-color: #3AB094;
+    border: 1px solid #3AB094;
+    margin-inline-start: 20px;
 }
 .wave svg{
     margin-bottom: -5px;
@@ -49,7 +91,7 @@ header .navlist ul li span{
 
 .market{
    min-height: 100vh;
-   padding: 30px 6%;
+   padding: 30px 7%;
    background-color: #F1EEFF;
 }
 .market .dgl h2{
@@ -70,10 +112,51 @@ header .navlist ul li span{
     background-color: #fff;
     border-radius: 18px;
     padding: 40px;
+    line-height: 29px;
+}
+.market .ads .item1 .learn1 {
+    width: 50%;
+    padding: 8px 0px;
+    border-radius: 20px;
+    border: 1px solid #206CFF;
+    background-color: #206CFF;
+    margin-top: 20px;
+}
+.market .ads .item1 .learn2{
+    width: 50%;
+    padding: 8px 0px;
+    border-radius: 20px;
+    border: 1px solid #39B094;
+    background-color: #39B094;
+    margin-top: 13px;
+}
+.market .ads .item1 .learn3{
+    width: 50%;
+    padding: 8px 0px;
+    border-radius: 20px;
+    border: 1px solid #FE7831;
+    background-color: #FE7831;
+    margin-top: 20px;
+}
+.market .ads .item1 .learn4{
+    width: 50%;
+    padding: 8px 0px;
+    border-radius: 20px;
+    border: 1px solid #F06C7A;
+    background-color: #F06C7A;
+    margin-top: 20px;
+}
+.market .ads .item1 .learn5{
+    width: 50%;
+    padding: 8px 0px;
+    border-radius: 20px;
+    border: 1px solid #793CFB;
+    background-color: #793CFB;
+    margin-top: 20px;
 }
 .client{
     min-height: 100vh;
-    padding: 30px 5%;
+    padding: 30px 7%;
     padding-bottom: 30%;
     background-color: #793CFB;
     color: #ffffff;
@@ -95,6 +178,7 @@ header .navlist ul li span{
     padding: 33px 0px;
     text-align: center;
     border-radius: 40px;
+    font-weight: 900;
 
 }
 .client .icon .icon1{
@@ -110,17 +194,17 @@ header .navlist ul li span{
     padding-inline-end: 5px;
 }
 .client .icon .icon1 img{
-    width: 19%;
+    width: 10%;
 }
 .client .icon .icon2 img{
-    width: 55%;
+    width: 50%;
 }
 .client .icon .icon2 p{
     padding-inline-end: 5px;
 }
 .client .icon .icon2 {
     background-color: #864FFB;
-    padding: 12px 0px;
+    
     text-align: center;
     border-radius: 40px;
 }
@@ -128,13 +212,13 @@ header .navlist ul li span{
     display: flex;
     justify-content: center;
     background-color: #ffffff;
-    padding: 12px 0px;
+   
     color: #206CFF;
    align-items: center;
     border-radius: 40px;
 }
 .client .icon .icon3 img{
-    width: 17%;
+    width: 10%;
 }
 .client .icon .icon3 p{
     padding-inline-end: 5px;
@@ -150,15 +234,23 @@ header .navlist ul li span{
 }
 .Lead {
     padding-inline: 5%;
-    padding-bottom: 15%;
+    padding-bottom: 25%;
+    padding-top: 10%;
 }
 .Lead .tech img{
     display: block;
+    width: 41vw;
+    height: 100%;
 }
+
 .Lead .lead1 {
-    padding-block: 15%;
-    padding-bottom: 20%;
+   margin-inline-start: 5%;
 }
+.Lead .lead1 h1{
+    margin-bottom: 40px;
+}
+
+
 .Lead .lead2{
     display: flex;
     align-items: center;
@@ -174,12 +266,14 @@ header .navlist ul li span{
 .Lead .lead2 img {
     width: 20%;
     height: 25vh;
+    
 }
 .Lead .lead2 h2{
     padding-block: 10px;
 }
 .Lead .lead2 p{
-    line-height: 25px;
+    line-height: 30px;
+    font-size: 16px;
 }.wave2 svg{
     margin-top: -22%;
     position: absolute;
@@ -194,22 +288,62 @@ header .navlist ul li span{
     background-color: #793CFB;
     color: #ffffff;
     padding-inline: 6%;
-    padding-block: 15%;
+    padding-block: 6%;
+}
+.team .team4{
+    display: flex;
+    justify-content: space-between;
+
+}
+.team .team4 .team1{
+    margin-top: 15%;
+    text-align: center;
+}
+.team .team4 .team2{
+    margin-top: 8%;
+}
+.team .team4 .team3{
+    margin-top: 1%;
 }
 .team .team1 img{
-    width: 85%;
+    width: 22vw;
     border-radius: 50%;
 }
 .team .team2 img{
-    width: 85%;
+    width: 24vw;
     border-radius: 50%;
 }
 .team .team3 img{
-    width: 85%;
+    width: 23vw;
     border-radius: 50%;
 }
-.team .meet h1{
-    margin-block: 15px;
+.team .team1 h1 {
+    text-align: center;
+    margin-block: 10px;
+    font-size: 30px;
+}
+.team .team2 h1 {
+    text-align: center;
+    margin-block: 10px;
+    font-size: 30px;
+}
+.team .team3 h1 {
+    text-align: center;
+    margin-block: 10px;
+    font-size: 30px;
+}
+.team .team1  p{
+    text-align: center;
+}
+.team .team2 p {
+    text-align: center;
+}
+.team .team3  p{
+    text-align: center;
+}
+
+.team .meet{
+    white-space: pre-line;
 }
 .team .meet p{
     padding-block: 10px;
@@ -218,7 +352,8 @@ header .navlist ul li span{
 .say{
     background-color: #F1EEFF;
     padding-inline: 6%;
-    padding-block: 25%;
+    padding-top: 5%;
+    padding-bottom: 25%;
 }
 .say .say1 h1{
     text-align: center;
@@ -241,7 +376,7 @@ header .navlist ul li span{
     background-color: #ffffff;
     margin-block-start: -22px;
     position: absolute;
-    margin-inline-start: 60%;
+    margin-inline-start: 20%;
     border-radius: 50%;
     padding: 5px;
     box-shadow: 2px 9px 9px 3px #EDEFF2;
@@ -260,7 +395,7 @@ header .navlist ul li span{
     background-color: #ffffff;
     margin-block-start: -22px;
     position: absolute;
-    margin-inline-start: 60%;
+    margin-inline-start: 20%;
     border-radius: 50%;
     padding: 5px;
     box-shadow: 2px 9px 9px 3px #EDEFF2;
@@ -279,7 +414,7 @@ header .navlist ul li span{
     background-color: #ffffff;
     margin-block-start: -22px;
     position: absolute;
-    margin-inline-start: 60%;
+    margin-inline-start: 20%;
     border-radius: 50%;
     padding: 5px;
     box-shadow: 2px 9px 9px 3px #EDEFF2;
@@ -425,6 +560,7 @@ footer .circle1 i{
         border-radius: 45px;
         margin-bottom: 12px;
         text-align: center;
+        width: auto;
     }
     .digital h1{
         font-size: 48px;
@@ -436,25 +572,8 @@ footer .circle1 i{
         color: #6A727D;
         line-height: 25px;
     }
-    .digital .btn{
-        display: flex;
-        
-    }
-    .digital .btn .us{
-        padding: 8px 0px;
-        width: 40%;
-        border-radius: 20px;
-        background-color: #793cfb;
-        border: 1px solid #793cfb;
-    }
-    .digital .btn .vi{
-        padding: 8px 0px;
-        width: 40%;
-        border-radius: 20px;
-        background-color: #3AB094;
-        border: 1px solid #3AB094;
-        margin-inline-start: 20px;
-    }
+    
+    
     /* .market .ads{
         flex-direction: column;
     } */
@@ -476,7 +595,7 @@ footer .circle1 i{
         margin-bottom: 16px;
         line-height: 25px;
     }
-    .market .ads .item1 .learn1{
+    /* .market .ads .item1 .learn1{
         width: 50%;
         padding: 8px 0px;
         border-radius: 20px;
@@ -511,7 +630,7 @@ footer .circle1 i{
         border-radius: 20px;
         border: 1px solid #793CFB;
         background-color: #793CFB;
-    }
+    } */
     .market .ads{
         grid-gap: 32px;
         grid-template-columns: repeat(auto-fit,minmax(270px,1fr));
@@ -522,11 +641,19 @@ footer .circle1 i{
         
     }
     .client .icon .goo{
-        padding: 16px 0px;
+        padding: 13px 0px;
     }
-    .Lead{
-        padding-inline:5%;
+    .client .icon .icon2 img {
+        width: 55%;
+        padding-top: 10px;
     }
+    .client .icon .icon3 img{
+        width: 17%;
+    }
+    .client .icon .icon1 img{
+        width: 17%;
+    }
+    
     .Lead .tech img{
         display: none;
     }
@@ -543,11 +670,35 @@ footer .circle1 i{
         flex-direction: column;
        
     }
+    .Lead .lead1 {
+        padding-block: 15%;
+        padding-bottom: 20%;
+    }
+    .Lead {
+        padding-inline: 7%;
+        padding-bottom: 15%;
+    }
     .Lead .lead2 .lead3{
         text-align: center;
     }
     .Lead .lead2 .lead4{
         text-align: center;
+    }
+    .team .team4{
+        flex-direction: column;
+    
+    }
+    .team .team1 img{
+        width:83%;
+        border-radius: 50%;
+    }
+    .team .team2 img{
+        width: 93%;
+        border-radius: 50%;
+    }
+    .team .team3 img{
+        width: 100%;
+        border-radius: 50%;
     }
     .team .team1{
         text-align: center;
@@ -566,6 +717,16 @@ footer .circle1 i{
     }
     .say .say3{
         flex-direction: column;
+    }
+    .say .Stars1 .color{
+        margin-inline-start: 60%;
+    }
+    
+    .say .Stars2 .color{
+        margin-inline-start: 60%;
+    }
+    .say .Stars3 .color{
+        margin-inline-start: 60%;
     }
     .quick .quick1{
         padding-bottom: 10%;
@@ -621,13 +782,100 @@ footer .circle1 i{
 }
 
 @media (min-width:900px){
+    header .navlist ul {
+        display: flex;
+        padding-left: 18%;
+    }
+    .client .icon .icon1 img{
+        width: 7%;
+    }
+    .client .icon .icon3 img{
+        width: 7%;
+    }
+    .say .Stars1 .color{
+        padding-block-end: 10%
+    }
+    .client .icon .goo {
+       
+       
+        padding: 13px 0px;
+       
+    }
+    .client .icon .icon2 img {
+        width: 20%;
+        padding-top: 10px;
+       
+    }
     .client .icon{
       
-        grid-template-columns: repeat(auto-fit,minmax(160px,1fr));
+        grid-template-columns: repeat(auto-fit,minmax(240px,1fr));
         
     }
 }
+@media (min-width:1000px){
+    header .navlist ul {
+        display: flex;
+        padding-left: 25%;
+    }
+    .client .icon .goo {
+       
+       
+        padding: 13px 0px;
+       
+    }
+    /* .client .icon{
+      
+        grid-template-columns: repeat(auto-fit,minmax(160px,1fr));
+        
+    } */
+   
+
+    .client .icon .icon2 img {
+        width: 27%;
+        
+        padding-top: 10px;
+       
+    }
+}
 @media (min-width:1440px){
+    header .navlist ul{
+        padding-left: 0;
+        position: absolute;
+        
+    }
+
+    .client .icon .goo {
+        margin-top: 1px;
+        font-weight: 900;
+        padding: 15px 0px;
+       
+    }
+    
+
+    
+    .client .icon .icon2 img{
+        width: 33%;
+        padding-top: 11px;
+    }
+    .client .icon .icon2 p{
+        padding-inline-end: 5px;
+    }
+    .client .icon .icon3 img{
+        width: 10%;
+    }
+    .client .icon .icon3 p{
+        padding-inline-end: 5px;
+    }
+}
+@media (min-width:1100px) and (max-width:1200px){
+    /* .client .icon{
+      
+        grid-template-columns: repeat(auto-fit,minmax(185px,1fr));
+        
+    } */
+    
+}
+/* @media (min-width:1100px) and (max-width:1440px){
     .client .icon{
       
         grid-template-columns: repeat(auto-fit,minmax(240px,1fr));
@@ -637,18 +885,7 @@ footer .circle1 i{
         width: 33%;
         padding-top: 11px;
     }
-    .client .icon .icon2 p{
-        padding-inline-end: 5px;
-    }
-    .client .icon .icon3 img{
-        width: 17%;
-    }
-    .client .icon .icon3 p{
-        padding-inline-end: 5px;
-    }
-}
-
-
+} */
 
 
 
