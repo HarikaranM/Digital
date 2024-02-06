@@ -979,6 +979,10 @@ footer .circle1 i{
         display: flex;
         padding-left: 21%;
     }
+    .client .some{
+        margin-inline-end: 10%;
+
+    }
     .client .icon .goo {
        
        
