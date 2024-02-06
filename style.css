@@ -549,7 +549,7 @@ footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-inline: 11%;
+    margin-inline: 10%;
     margin-block: 3%;
 }
 footer .circle{
