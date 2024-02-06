@@ -1043,7 +1043,11 @@ footer .circle1 i{
         padding: 27px 0px;
         width: 60%;
     }
+    .client .some{
+        margin-inline-end: 10%;
 
+    }
+    
     
     .client .icon .icon2 img{
         width: 45%;
