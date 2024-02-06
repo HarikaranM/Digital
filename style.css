@@ -57,16 +57,17 @@ header .fa-bars{
 }
 .digital h3{
     background-color: #F2ECFF;
-    color: #793cfb;
-    border-radius: 10px;
+    color: #793CFB;
+    border-radius: 40px;
+    font-weight: 600;
     width: max-content;
     padding-inline: 20px;
-    padding-block: 3px;
+    padding-block: 7px;
     margin-block: 5%;
 }
 .digital .digital1 h1{
     font-size: 40px;
-    padding-bottom: 30px;
+    /* padding-bottom: 30px; */
     line-height: 50px;
 }
 .digital .digital1 p {
@@ -99,13 +100,14 @@ header .fa-bars{
 }
 .wave svg{
     margin-bottom: -5px;
-    margin-top: -5%;
+    margin-top: -10%;
 }
 
 .market{
    min-height: 100vh;
    padding: 30px 11%;
    background-color: #F1EEFF;
+   padding-bottom: 5%;
 }
 .market .dgl h2{
     text-align: center;
@@ -124,11 +126,12 @@ header .fa-bars{
      border: 1px solid #fff;
     background-color: #fff;
     border-radius: 18px;
-    padding: 50px;
-    line-height: 29px;
+    padding: 25px;
+    line-height: 35px;
 }
 .market .ads .item1{
     color: #6A727D;
+    font-size: 16px;
 }
 .market .ads .item1 .learn1 {
     width: 50%;
@@ -179,14 +182,16 @@ header .fa-bars{
     min-height: 70vh;
     padding-inline-start: 11%;
     padding-inline-end: 4%;
-    padding-bottom: 26%;
+    padding-bottom: 20%;
     padding-top: 2%;
     background-color: #793CFB;
     color: #ffffff;
 }
 .client .some{
     text-align: center;
-    color: #ffffff;
+    color: #EDEFF2;
+    font-weight: 600;
+    font-size: 18px;
     margin-block: 20px;
 }
 .client .icon{
@@ -271,7 +276,8 @@ header .fa-bars{
 
 
 .Lead .lead1 h1{
-    margin-bottom: 40px;
+    margin-bottom: 10%;
+    margin-inline-start: 35px;
 }
 
 
@@ -279,17 +285,18 @@ header .fa-bars{
     display: flex;
     align-items: center;
     margin-block: 20px;
-    padding-block: 20px;
+    margin-inline-start: 35px;
 }
 .Lead .lead2{
     border: 1px solid #fff;
     background-color: #fff;
     border-radius: 18px;
+    padding-block: 20px;
    
 }
 .Lead .lead2 img {
     width: 20%;
-    height: 25vh;
+    height: 17vh;
     
 }
 .Lead .lead2 h2{
@@ -297,7 +304,7 @@ header .fa-bars{
 }
 .Lead .lead2 p{
     line-height: 30px;
-    font-size: 16px;
+    font-size: 18px;
     color: #6A727D;
 }
 .wave2 svg{
@@ -309,6 +316,7 @@ header .fa-bars{
 }
 .Lead .lead2 .lead4{
     padding-inline: 25px;
+    padding-block: 20px;
 }
 .team{
     background-color: #793CFB;
@@ -332,15 +340,15 @@ header .fa-bars{
     margin-top: 1%;
 }
 .team .team1 img{
-    width: 22vw;
+    width: 22.5vw;
     border-radius: 50%;
 }
 .team .team2 img{
-    width: 24vw;
+    width: 23.5vw;
     border-radius: 50%;
 }
 .team .team3 img{
-    width: 23vw;
+    width: 23.5vw;
     border-radius: 50%;
 }
 .team .team1 h1 {
@@ -375,8 +383,8 @@ header .fa-bars{
     font-size: 36px;
 }
 .team .meet p{
-    padding-block: 10px;
-    line-height: 25px;
+    
+    line-height: 30px;
 }
 .say{
     background-color: #F1EEFF;
@@ -470,7 +478,7 @@ header .fa-bars{
 
 .say .jen img{
     width: 100%;
-    height: 16vh;
+    height: 8vh;
     border-radius: 50% ;
 }
 .say .Stars1 .start1{
@@ -515,7 +523,7 @@ header .fa-bars{
     justify-content: space-between;
     align-items: flex-start;
     padding-inline: 10%;
-    padding-block: 3%;
+    padding-bottom: 3%;
 }
 
 .quick .quick2{
@@ -778,12 +786,14 @@ footer .circle1 i{
     }
     .Lead .lead1 h1{
         margin-bottom: 25px;
+        margin-inline-start: 0px;
     }
     .Lead .lead2{
         border: 1px solid #fff;
         background-color: #fff;
         border-radius: 18px;
         flex-direction: column;
+        margin-inline-start: 0px;
        
     }
     .Lead .lead1 {
@@ -793,6 +803,10 @@ footer .circle1 i{
     .Lead {
         padding-inline: 7%;
         padding-bottom: 15%;
+    }
+    .Lead .lead2 img {
+        width: 20%;
+        height: 25vh;
     }
     .Lead .lead2 .lead3{
         text-align: center;
@@ -1002,15 +1016,13 @@ footer .circle1 i{
         font-size: 16px;
         padding-right: 46px;
     }
-    .market .ads .item1{
-        padding: 40px;
-    }
+    
     .say .Stars3 p{
-        line-height: 30px;
+        line-height: 26px;
         text-align: center;
     }
     .say .Stars2 p {
-        line-height: 35px;
+        line-height: 30px;
         text-align: center;
     }
     .client .icon .goo {
