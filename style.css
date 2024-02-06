@@ -249,9 +249,7 @@ header .fa-bars{
     height: 100%;
 }
 
-.Lead .lead1 {
-   margin-inline-start: 5%;
-}
+
 .Lead .lead1 h1{
     margin-bottom: 40px;
 }
@@ -357,7 +355,7 @@ header .fa-bars{
 }
 .say{
     background-color: #F1EEFF;
-    padding-inline: 11%;
+    padding-inline: 10%;
     padding-top: 5%;
     padding-bottom: 18%;
 }
@@ -710,7 +708,7 @@ footer .circle1 i{
         padding-bottom: 20%;
     }
     .Lead {
-        padding-inline: 2%;
+        padding-inline: 7%;
         padding-bottom: 15%;
     }
     .Lead .lead2 .lead3{
@@ -760,14 +758,14 @@ footer .circle1 i{
         flex-direction: column;
     }
     .say .Stars1 .color{
-        margin-inline-start: 50%;
+        margin-inline-start: 60%;
     }
     
     .say .Stars2 .color{
-        margin-inline-start: 50%;
+        margin-inline-start: 60%;
     }
     .say .Stars3 .color{
-        margin-inline-start: 50%;
+        margin-inline-start: 60%;
     }
     .quick .quick1{
         padding-bottom: 10%;
@@ -915,7 +913,14 @@ footer .circle1 i{
         font-size: 16px;
         padding-right: 46px;
     }
-
+    .say .Stars3 p{
+        line-height: 26px;
+        text-align: center;
+    }
+    .say .Stars2 p {
+        line-height: 35px;
+        text-align: center;
+    }
     .client .icon .goo {
         margin-top: 1px;
         font-weight: 900;
