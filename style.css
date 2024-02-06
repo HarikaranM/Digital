@@ -1101,6 +1101,6 @@ footer .circle1 i{
 @media (min-width:1300px)  and (max-width:1431px){
     header .navlist ul {
         display: flex;
-        padding-left: 19%;
+        padding-left: 15%;
     }
 }
