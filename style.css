@@ -502,6 +502,7 @@ header .fa-bars{
 }
 .say .jen .jen1{
     padding-left: 10px;
+    line-height: 24px;
 }
 .say .jen .jen1 p{
     color: #6A727D;
@@ -554,7 +555,7 @@ header .fa-bars{
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    padding-inline: 10%;
+    padding-inline: 11%;
     padding-bottom: 8%;
 }
 .quick .quick1 {
@@ -629,9 +630,11 @@ footer .circle1 i{
 @media (min-width:280px) and (max-width:900px){
 
     header {
-        margin-inline-start: 3%;
-        margin-inline-end: 7%;
-    }
+        padding-inline-start: 3%;
+        padding-inline-end: 7%;
+        position: relative;
+}
+    
     header .navlist{
         position: fixed;
         margin-left: -110%;
@@ -665,7 +668,7 @@ footer .circle1 i{
     .digital{
         margin-inline-start: 6%;
         margin-inline-end: 6%;
-        margin-top: 4%;
+        padding-top: 0;
     }
     .digital img{
         display: none;
@@ -871,7 +874,7 @@ footer .circle1 i{
     
     }
     .team .team1 img{
-        width:83%;
+        width:85%;
         border-radius: 50%;
     }
     .team .team2 img{
