@@ -113,7 +113,7 @@ header .fa-bars{
 }
 .market .dgl h2{
     text-align: center;
-    font-size: 40px;
+    font-size: 36px;
     margin-bottom: 8%;
 }
 
@@ -128,12 +128,17 @@ header .fa-bars{
      border: 1px solid #fff;
     background-color: #fff;
     border-radius: 18px;
-    padding: 25px;
+    padding: 22px;
     line-height: 35px;
 }
-.market .ads .item1{
-    color: #6A727D;
-    font-size: 16px;
+.market .ads .item1 p{
+    color: #8D919D;
+    font-size: 14px;
+    line-height: 25px;
+}
+.market .ads .item1 h3{
+    color: #000000;
+    font-size: 18px;
 }
 .market .ads .item1 .learn1 {
     width: 50%;
@@ -193,7 +198,7 @@ header .fa-bars{
     text-align: center;
     color: #EDEFF2;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 36px;
     margin-block: 20px;
 }
 .client .icon{
@@ -225,9 +230,10 @@ header .fa-bars{
 }
 .client .icon .icon1 p{
     padding-inline-end: 5px;
+    font-size: 18px;
 }
 .client .icon .icon1 img{
-    width: 16%;
+    width: 20%;
 }
 .client .icon .icon2 img{
     width: 50%;
@@ -240,6 +246,10 @@ header .fa-bars{
     width: 60%;
     text-align: center;
     border-radius: 40px;
+}
+.client .fa-brands  {
+    
+    font-size: 24px;
 }
 .client .icon .icon3 {
     display: flex;
@@ -280,6 +290,7 @@ header .fa-bars{
 .Lead .lead1 h1{
     margin-bottom: 10%;
     margin-inline-start: 35px;
+    font-size: 36px;
 }
 
 
@@ -293,20 +304,20 @@ header .fa-bars{
     border: 1px solid #fff;
     background-color: #fff;
     border-radius: 18px;
-    padding-block: 20px;
+    padding-block: 15px;
    
 }
 .Lead .lead2 img {
     width: 20%;
     height: 17vh;
-    
+    padding-left: 10px;
 }
 .Lead .lead2 h2{
     padding-block: 10px;
 }
 .Lead .lead2 p{
-    line-height: 30px;
-    font-size: 18px;
+    line-height: 28px;
+    font-size: 16px;
     color: #6A727D;
 }
 .wave2 svg{
@@ -316,9 +327,15 @@ header .fa-bars{
 .Lead .lead2 .lead3{
     padding-inline: 20px;
 }
+.Lead .lead2 .lead3 h3{
+    padding-block: 10px;
+}
+.Lead .lead2 .lead4 h3{
+    padding-block: 10px;
+}
 .Lead .lead2 .lead4{
     padding-inline: 25px;
-    padding-block: 20px;
+    
 }
 .team{
     background-color: #793CFB;
@@ -370,12 +387,15 @@ header .fa-bars{
 }
 .team .team1  p{
     text-align: center;
+    color: #F1EEFF;
 }
 .team .team2 p {
     text-align: center;
+    color: #F1EEFF;
 }
 .team .team3  p{
     text-align: center;
+    color: #F1EEFF;
 }
 
 .team .meet{
@@ -383,20 +403,22 @@ header .fa-bars{
 }
 .team .meet h1{
     font-size: 36px;
+    font-weight: 500;
 }
 .team .meet p{
-    
+    color: #F1EEFF;
     line-height: 30px;
 }
 .say{
     background-color: #F1EEFF;
     padding-inline: 10%;
-    padding-top: 5%;
+    
     padding-bottom: 18%;
 }
 .say .say1 h1{
     text-align: center;
-    padding-block: 40px;
+    padding-block: 8%;
+    font-size: 36px;
 }
 .say .say3{
     display: flex;
@@ -409,7 +431,7 @@ header .fa-bars{
     margin-inline: 3%;
     
     padding-block-end: 10%;
-    padding-inline: 8%;
+    padding-inline: 5%;
 }
 .say .Stars1 .color{
     background-color: #ffffff;
@@ -428,7 +450,7 @@ header .fa-bars{
     margin-inline: 3%;
     
     padding-block-end: 10%;
-    padding-inline: 8%;
+    padding-inline: 5%;
 }
 .say .Stars2 .color{
     background-color: #ffffff;
@@ -447,7 +469,7 @@ header .fa-bars{
     margin-inline: 3%;
     
     padding-block-end: 10%;
-    padding-inline: 8%;
+    padding-inline: 5%;
 }
 .say .Stars3 .color{
     background-color: #ffffff;
@@ -511,7 +533,7 @@ header .fa-bars{
     text-align: center;
 }
 .say .Stars3 p{
-    line-height: 30px;
+    line-height: 26px;
     text-align: center;
     color: #6A727D;
     font-size: 16px;
@@ -525,7 +547,10 @@ header .fa-bars{
     justify-content: space-between;
     align-items: flex-start;
     padding-inline: 10%;
-    padding-bottom: 3%;
+    padding-bottom: 8%;
+}
+.quick .quick1 {
+    width: 25%;
 }
 
 .quick .quick2{
@@ -535,14 +560,17 @@ header .fa-bars{
 }
 .quick1  p{
     color: #6A727D;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 30px;
+   
 }
 .quick .nav1 .fa-solid{
     color: #793CFB;
 }
-.quick .nav1  {
+
+.quick .nav1 {
     margin-top: 10px;
+    margin-right: 12px;
 }
 .i33 .sub-btn{
     display: none;
@@ -554,13 +582,16 @@ header .fa-bars{
     line-height: 35px;
     color: #6A727D;
     font-size: 16px;
+   
 }
 footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-inline: 10%;
-    margin-block: 3%;
+    padding-inline: 10%;
+    
+    padding-block: 10px;
+    border-top: 1px solid #F1F2F4;
 }
 footer .circle{
    
@@ -815,8 +846,8 @@ footer .circle1 i{
         padding-bottom: 15%;
     }
     .Lead .lead2 img {
-        width: 20%;
-        height: 25vh;
+        width: 100px;
+        height: 100px;
     }
     .Lead .lead2 .lead3{
         text-align: center;
@@ -883,6 +914,9 @@ footer .circle1 i{
        padding-block: 10%;
        
     }
+    .quick .quick1 {
+        width: 100%;
+    }
     /* .quick .quick2 {
         justify-content: center;
     } */
@@ -924,6 +958,7 @@ footer .circle1 i{
         padding-block: 5%;
         width: 100%;
         position: relative;
+        padding-right: 0;
     }
     footer{
         flex-direction: column;
@@ -948,6 +983,27 @@ footer .circle1 i{
     .client {
         min-height: 50vh;
     }
+    .team .team1 img {
+        width: 50%;
+        
+    }
+    .team .team2 img {
+        width: 50%;
+       
+    }
+    .team .team3 img {
+        width: 50%;
+        
+    }
+    .team .team1 h1 {
+        font-size: 24px;
+    }
+    .team .team2 h1 {
+        font-size: 24px;
+    }
+    .team .team3 h1 {
+        font-size: 24px;
+    }
 }
 
 @media (min-width:900px)  and (max-width:1200px){
@@ -960,28 +1016,37 @@ footer .circle1 i{
         padding-right: 18px;
     }
     .client .icon .icon1 img{
-        width: 16%;
+        width: 20%;
+    }
+    .client .icon .icon2 {
+        border-radius: 50px;
     }
     .client .icon .icon3 img{
         width: 16%;
     }
-    
+    .client .icon .icon1 {
+        padding: 30px 0px;
+        border-radius: 50px;
+    }
     
     .client .icon .goo {
        
-       
-        padding: 13px 0px;
+        border-radius: 50px;
+        padding: 35px 0px;
        
     }
     .client .icon .icon2 img {
-        width: 45%;
-        padding-top: 24px;
+        width: 50%;
+        padding-top: 30px;
        
     }
     .client .icon{
       
         grid-template-columns: repeat(auto-fit,minmax(240px,1fr));
         
+    }
+    .say .Stars3 p {
+        line-height: 30px;
     }
 }
 @media (min-width:1000px){
@@ -999,14 +1064,17 @@ footer .circle1 i{
         padding: 30px 0px;
        
     }
+    .say .Stars3 p {
+        line-height: 30px;
+    }
     footer .circle1 {
        
         font-size: 30px;
         
     }
-    .quick .nav1{
-        padding-right: 5%;
-    }
+    /* .quick .nav1{
+        padding-right: 15%;
+    } */
     /* .client .icon{
       
         grid-template-columns: repeat(auto-fit,minmax(160px,1fr));
@@ -1015,7 +1083,7 @@ footer .circle1 i{
    
 
     .client .icon .icon2 img {
-        width: 45%;
+        width: 50%;
         
         padding-top: 25px;
        
@@ -1032,7 +1100,7 @@ footer .circle1 i{
     }
     
     .say .Stars3 p{
-        line-height: 26px;
+        line-height: 30px;
         text-align: center;
     }
     .say .Stars2 p {
@@ -1102,5 +1170,12 @@ footer .circle1 i{
     header .navlist ul {
         display: flex;
         padding-left: 15%;
+    }
+    .market .ads .item1 {
+        padding: 16px;
+
+    }
+    .say .Stars3 p {
+        line-height: 26px;
     }
 }
