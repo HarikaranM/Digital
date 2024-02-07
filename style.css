@@ -15,9 +15,17 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 3%;
-    margin-inline-start: 10%;
-    margin-inline-end: 10%;
+   
+    
+}
+header{
+   
+    padding-inline: 10%;
+    position: fixed;
+    background-color: #ffffff;
+    z-index: 1000;
+    width: 100%;
+    padding-block: 10px;
 }
 header .peak{
     display: flex;
@@ -38,7 +46,7 @@ header .navlist ul li span{
     color: #ffffff;
     padding: 15px 30px;
     border-radius: 40px;
-    position: absolute;
+    position: fixed;
     margin-top: -16px;
 }
 header .fa-bars{
@@ -49,7 +57,7 @@ header .fa-bars{
     justify-content: space-between;
     align-items: center;
     margin-inline: 11%;
-    margin-top: 4%;
+    padding-top: 10%;
 }
 .digital .digital1{
     padding-block: 3%;
@@ -582,7 +590,7 @@ header .fa-bars{
     line-height: 35px;
     color: #6A727D;
     font-size: 16px;
-   
+    padding-top: 10px;
 }
 footer{
     display: flex;
@@ -1052,7 +1060,7 @@ footer .circle1 i{
 @media (min-width:1000px){
     header .navlist ul {
        
-        padding-left: 11%;
+        padding-left: 6%;
     }
     .client .some{
         margin-inline-end: 10%;
@@ -1091,7 +1099,7 @@ footer .circle1 i{
 }
 @media (min-width:1440px){
     header .navlist ul{
-        padding-left: 24%;
+        padding-left: 21%;
         
     }
     header .navlist ul li {
@@ -1166,7 +1174,7 @@ footer .circle1 i{
 
 
 
-@media (min-width:1300px)  and (max-width:1431px){
+@media (min-width:1300px)  and (max-width:1440px){
     header .navlist ul {
         display: flex;
         padding-left: 15%;
