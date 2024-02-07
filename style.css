@@ -41,9 +41,9 @@ header .navlist ul li{
     padding-right: 46px;
     color: #989CA5;
 }
-header .navlist ul li span{
+header .navlist ul  .us{
     padding: 15px 0px;
-    width: 117px;
+    width: 138px;
     border-radius: 40px;
     position: fixed;
     text-align: center;
@@ -611,23 +611,33 @@ footer{
 }
 footer .circle{
    
-    color: #6A727D;
+    color: #90939D;
     font-size: 14px;
     margin-top: -20px;
 }
 footer .circle1{
    
     display: flex;
-    color: #793CFB;
-    font-size: 26px;
+    
     justify-content: center;
 }
 footer .circle1 i{
     padding-inline: 10px;
 }
+footer .circle1 .circle2{
+    font-size: 34px;
+    background-color: #864FFB;
+    border-radius: 77%;
+    width: 3vw;
+    text-align: center;
+    margin-inline: 5px;
+}
 
-
-
+footer .circle1 .circle2 .fa-brands{
+    color: #ffffff;
+    font-size: 20px;
+    margin-bottom: 28%;
+}
 
 
 
@@ -1188,7 +1198,7 @@ footer .circle1 i{
 @media (min-width:1300px)  and (max-width:1439px){
     header .navlist ul {
         
-        padding-left: 20%;
+        padding-left: 18%;
     }
     .Lead .lead2 p {
         font-size: 12px;
