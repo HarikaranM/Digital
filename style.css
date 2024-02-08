@@ -613,7 +613,7 @@ footer .circle{
    
     color: #90939D;
     font-size: 14px;
-    margin-top: -20px;
+   
 }
 footer .circle1{
    
@@ -633,12 +633,15 @@ footer .circle1 .circle2{
     margin-inline: 5px;
 }
 
-footer .circle1 .circle2 .fa-brands{
-    color: #ffffff;
-    font-size: 20px;
-    margin-bottom: 28%;
-}
 
+footer .circle1 .circle2 .fa-brands {
+    color: #ffffff;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-block: 40%;
+}
 
 
 
@@ -1003,6 +1006,23 @@ footer .circle1 .circle2 .fa-brands{
     }
     footer .circle {
         text-align: center;
+    }
+    footer .circle1 .circle2 {
+        
+        
+        width: 6vw;
+        padding-right: 0;
+        padding-bottom: 0;
+        
+        margin-inline: 5px;
+    }
+    footer .circle1 .circle2 .fa-brands {
+        color: #ffffff;
+        font-size: 14px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-block: 40%;
     }
 }
 @media (min-width:748px) and (max-width:900px){
