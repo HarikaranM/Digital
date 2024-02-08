@@ -678,6 +678,7 @@ footer .circle1 .circle2 .fa-brands {
        header .navlist ul .us{
          position: relative;
          margin-top: 1px;
+         padding: 9px 0px;
        }
      header .navlist ul li span {
         position: relative;
