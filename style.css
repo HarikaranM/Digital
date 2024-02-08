@@ -674,6 +674,7 @@ footer .circle1 .circle2 .fa-brands{
        }
        header .navlist ul .us{
          position: relative;
+         margin-top: 1px;
        }
      header .navlist ul li span {
         position: relative;
